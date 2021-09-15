@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+body{
+    background: #19A1AD;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.card{
+    height: 50vh;
+    width: 400px;
+    background: #fff;
+    margin: auto;
+    margin-top: 25vh;
+    border-radius: 25px;
+}
+
+
+.top-circle{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.4;
+    top: -550px;
+    left: -300px;
+    transform: rotate(90deg);
+}
+
+.bottom-circle{
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.4;
+    bottom: -480px;
+    right: -200px;
+    z-index: -2;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 60%;
+    position: relative;
+}
+
+.user-name{
+    flex-grow: 2;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.age{
+    font-size: 1.25rem;
+    opacity: 0.4;
+}
+
+.city{
+    display: block;
+    opacity: 0.4;
+}
+
+.user-details{
+    margin: 2px;
+}
+
+.ud2{
+    display: flex;
+    flex-direction: row;
+}
+.bs{
+    font-size: 1.25rem;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ss{
+    font-size: 0.75rem;
+    opacity: 0.4;
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.followers, .likes, .photos{
+    flex-grow: 1;
+    /* padding-left: 40px; */
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.user-image{
+    display: block;
+    border-radius: 50px;
+    margin: auto;
+    position: absolute;
+    top: -70px;
+    left: 35%;
+    right: 35%;
+    border: 5px solid #fff;
+    background-color: #fff;
+}
+
+.background-card{
+    background-color: aqua;
+    width: 100%;
+    height: 40%;
+    border-radius: 25px 25px 0 0;
+}

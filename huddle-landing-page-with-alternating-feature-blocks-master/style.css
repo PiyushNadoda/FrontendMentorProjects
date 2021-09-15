@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-top{
+    height: 100vh;
+    width: 100vw;
+    background: #EDFBFE url(images/bg-hero-desktop.svg);
+    overflow: hidden;
+}
+
+.nav{
+    height: 20vh;
+    width: auto;
+}
+
+.btn-top{
+    float: right;
+    margin: 50px 100px 50px;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.logo-top{
+    margin: 50px 100px 50px;
+}
+
+.container-mockup{
+    width: 100vw;
+    display: inline-block;
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+
+.container-mockup-text{
+    width: 30vw;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.mockup{
+    width: 700px;
+    height: auto;
+    float: right;
+}
+
+
+.mockup-heading{
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    margin-top: 80px;
+}
+
+.mockup-subheading{
+    padding: 30px 0;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    opacity: 0.8;
+}
+
+.mockup-btn{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #FE52C0;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.container-grow-together, .container-flowing-conversations, .container-your-users{
+    margin: 50px 100px 10px 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0 ,0 , 0, 0.2);
+    box-sizing: border-box;
+    padding: 30px 30px 30px 100px;
+    height: 500px;
+}
+
+.gt-mockup, .yu-mockup{
+    width: 500px;
+    height: auto;
+    float: right;
+}
+
+.gt-heading, .fc-heading, .yu-heading{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    width: 30vw;
+    display: inline-block;
+}
+
+.gt-text, .fc-text, .yu-text{
+    width: 500px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.fc-mockup{
+    width: 500px;
+    height: auto;
+    float: left;
+    /* display: inline-block; */
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.yu-mockup{
+    padding-top: 40px;
+}
+
+.container-bottom{
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.bottom-card{
+    position: relative;
+    height: 270px;
+    width: 55vw;
+    box-shadow: 0 0 10px 0 rgb(0,0,0, 0.1);
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 70px 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: -100px;
+    z-index: 11;
+    background-color: #fff;
+}
+
+.card-text{
+    font-size: 2.5rem;
+}
+
+.card-btn{
+    height: 80px;
+    width: 25vw;
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 0;
+    background-color:#FE52C0;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bottom{
+    background-color: #00252E;
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 35% 20% 20% 25%;
+    padding: 150px 100px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.bottom-logo{
+    filter: grayscale(100%) invert(100%);
+    margin-top: 30px;
+    display: block;
+}
+
+.icon-location{
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+    margin-bottom: 40px;
+}
+
+.location{
+    margin-top: 40px;
+    width: 400px;
+    font-size: 1.25rem;
+    display: inline-block;
+    line-height: 1.5rem;
+}
+
+.icon-phone{
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+    margin-bottom: -3px;
+}
+
+.phone{
+    margin-top: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.icon-email{
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+    margin-bottom: -3px;
+}
+
+.email{
+    margin-top: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.grid:nth-child(2), .grid:nth-child(3){
+    justify-self: self-start;
+    align-self: center;
+}
+
+ul{
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+li{
+    font-size: 1.25rem;
+    padding: 15px 50px;
+}
+
+.grid:nth-child(4){
+    justify-self: self-start;
+    align-self: flex-end;
+    margin-bottom: -50px;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vh 10vw;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+div{
+    padding: 20px;
+    flex: 1;
+}
+
+svg{
+    margin-right: 10px;
+}
+
+.ratting{
+    background-color: #F7F2F8;
+    padding: 15px 10px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    width: 390px;
+    text-align: center;
+}
+
+.title{
+    font-size: 3rem;
+    color: #511F53;
+    padding-right: 150px;
+    font-weight: 900;
+}
+
+.subtitle{
+    padding-right: 150px;
+    opacity: 0.6;
+    line-height: 1.5rem;
+}
+
+.card{
+    background-color: #511F50;
+    color: #fff;
+    margin: 20px 20px;
+    border-radius: 10px;
+    padding: 30px 30px;
+
+}
+
+img{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-top: 20px;
+}
+
+.user-info{
+    text-align: center;
+    margin-top: 0;
+}
+
+span{
+    margin-right: 120px;
+}
+
+.buyer{
+    color: #AF6B9E;
+    font-weight: 200;
+}
+
+.card p{
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.ratting:nth-child(1){
+    margin-left: 0;
+}
+
+.ratting:nth-child(2){
+    margin-left: 35px;
+}
+
+.ratting:nth-child(3){
+    margin-left: 70px;
+}
+
+.card:nth-child(2){
+ margin-top: 50px;
+}
+
+.card:nth-child(3){
+    margin-top: 100px;
+   }

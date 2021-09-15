@@ -1,0 +1,110 @@
+body{
+    font-family: 'Josefin Sans';
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+
+svg{
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 2.15rem;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 500;
+}
+
+p{
+    color: #FFF;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+
+
+.container{
+    display: flex;
+    width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+
+.sedans{
+    flex: 1;
+    background: rgba(227,132,37,255);
+    padding: 20px 40px;
+    position: relative;
+}
+
+.suvs{
+    flex: 1;
+    background: #016972;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.luxury{
+    flex: 1;
+    background: #00413e;    
+    padding: 20px 40px;
+    position: relative;
+}
+
+p{
+    max-width: 200px;
+    width: 100%;
+}
+
+.sedans button{
+    background: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    color:rgba(227,132,37,255);
+    font-weight: bolder;
+    transition: 0.5s;
+}   
+
+.suvs button{
+    background: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    color:#016972;
+    font-weight: bolder;
+    transition: 0.5s;
+    align-self: flex-end;
+    margin-top: 16px;
+}   
+
+.luxury button{
+    background: #fff;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 25px;
+    color: #00413e;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+button:hover{
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+button{
+     position: absolute;
+     bottom: 20px;
+}
